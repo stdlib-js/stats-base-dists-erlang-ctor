@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Erlang;
+})();
 })();
 </script>
 ```
@@ -300,6 +302,7 @@ y = erlang.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var erlang = new Erlang( 2, 4.0 );
 
@@ -315,6 +318,7 @@ var s2 = erlang.variance;
 var y = erlang.cdf( 0.8 );
 // returns ~0.829
 
+})();
 })();
 </script>
 </body>
