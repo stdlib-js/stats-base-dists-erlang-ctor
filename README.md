@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-erlang-ctor/tags). For example,
+
+```javascript
 import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@v0.1.0-esm/index.mjs';
 ```
 
@@ -286,7 +291,7 @@ y = erlang.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@v0.1.0-esm/index.mjs';
+import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@esm/index.mjs';
 
 var erlang = new Erlang( 2, 4.0 );
 
