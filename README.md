@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@esm/index.mjs';
+import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@v0.2.1-esm/index.mjs';
 ```
 
 #### Erlang( \[k, lambda] )
@@ -286,7 +286,7 @@ y = erlang.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@esm/index.mjs';
+import Erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-ctor@v0.2.1-esm/index.mjs';
 
 var erlang = new Erlang( 2, 4.0 );
 
