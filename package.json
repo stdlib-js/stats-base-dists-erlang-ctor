@@ -47,7 +47,7 @@
     "@stdlib/stats-base-dists-erlang-mgf": "^0.2.2",
     "@stdlib/stats-base-dists-erlang-mode": "^0.2.2",
     "@stdlib/stats-base-dists-erlang-pdf": "^0.2.2",
-    "@stdlib/stats-base-dists-erlang-quantile": "^0.2.1",
+    "@stdlib/stats-base-dists-erlang-quantile": "^0.2.2",
     "@stdlib/stats-base-dists-erlang-skewness": "^0.2.2",
     "@stdlib/stats-base-dists-erlang-stdev": "^0.2.2",
     "@stdlib/stats-base-dists-erlang-variance": "^0.2.2",
